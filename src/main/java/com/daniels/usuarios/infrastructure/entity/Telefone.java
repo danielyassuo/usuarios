@@ -11,6 +11,8 @@ import lombok.*;
 @Entity
 @Table(name = "telefone")
 @Builder
+@EqualsAndHashCode
+@ToString
 
 public class Telefone {
     @Id

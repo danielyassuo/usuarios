@@ -10,6 +10,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@EqualsAndHashCode
+@ToString
 public class UsuarioDTO {
     private String nome;
     private String email;

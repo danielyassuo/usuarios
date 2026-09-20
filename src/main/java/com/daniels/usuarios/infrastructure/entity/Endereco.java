@@ -11,6 +11,8 @@ import lombok.*;
 @Entity
 @Table(name = "endereco")
 @Builder
+@EqualsAndHashCode
+@ToString
 
 public class Endereco {
     @Id

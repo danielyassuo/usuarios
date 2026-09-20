@@ -17,6 +17,8 @@ import java.util.List;
 @Entity
 @Table(name = "usuario")
 @Builder
+@EqualsAndHashCode
+@ToString
 
 public class Usuario implements UserDetails {
 
